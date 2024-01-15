@@ -1,0 +1,88 @@
+@font-face {
+  font-family: google;
+  src: url(font/GoogleSans-Regular.ttf);
+}
+.head {
+  z-index: 100;
+}
+.quotes {
+  font-family: google;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  background-color: #0a0f20;
+  color: white;
+}
+header {
+  font-family: google;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: #181d31;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar a {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.navbar a:hover {
+  color: grey;
+}
+#user{
+  margin-left:20px;
+  font-size:25px;
+  color:white;
+}
+#user1{
+  margin-top:9px;
+  margin-right:5px;
+  font-size:25px;
+  color:black;
+  float:right;
+}
+.icon #user:hover{
+  color:grey;
+}
+.icon{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon .search{
+  height:40px;
+  width:auto;
+  background-color:white;
+  border-radius:15px;
+  display:flex;
+  justify-content: center;
+  border:0;
+}
+.searchbox{
+  border:none;
+  border-radius: 15px;
+  padding-left:15px;
+}
+.searchbox:active{
+  border: none;
+}
+.searchbox::placeholder{
+  padding:0px;
+  font-size:14px;
+}
+input:focus {
+  outline: none;
+  border: none;
+}

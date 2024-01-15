@@ -1,0 +1,85 @@
+@font-face {
+  font-family: google;
+  src: url(font/GoogleSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: google;
+}
+.main {
+  height: auto;
+  background-color: #080b16;
+  background-image: url(image/logintry.jpg);
+  background-position: center;
+  background-size:cover;
+}
+#contact {
+  padding-top: 25px;
+  letter-spacing: 1.5px;
+}
+.boxcontact {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom:40px;
+}
+.boxcontact .container-box-contact {
+  position: relative;
+  height: auto;
+  width: 750px;
+  background-color: transparent;
+  border-radius: 9px;
+  padding: 0px 20px 30px 20px;
+  text-align: left;
+  color: white;
+  box-shadow: 0 0 15px black;
+  text-align: center;
+}
+.container-box-contact .input {
+  height: 40px;
+  width: 630px;
+  border-radius: 6px;
+  border: 0px solid black;
+  padding: 10px;
+  box-shadow: 0 0 12px black;
+  margin-top: 30px;
+}
+.tajuk {
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+#input1 {
+  height: 90px;
+}
+.container-box-contact .input::placeholder {
+  font-size: 15px;
+}
+.submit{
+    margin-top:30px;
+    height:40px;
+    width:100px;
+    font-size:15px;
+    border-radius:5px;
+    border:0;
+    box-shadow: 0 0 15px black;
+}
+.submit:hover{
+    box-shadow: 0 0 15px white;
+    color:rgb(75, 151, 193);
+    font-weight:700;
+}
+.dialog{
+  height:auto;
+  width:200px;
+  background-color:white;
+  border-radius:5px;
+}

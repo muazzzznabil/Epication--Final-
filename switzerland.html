@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switzerland</title>
+  <link rel="stylesheet" href="destinationreal.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="footer.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar dan Logo -->
+  <section class="quotes">
+    <p>
+      "Travel makes one modest, you see what a tiny place you occupy in the
+      world." - Gustave Flaubert
+    </p>
+  </section>
+  <header>
+    <a href="Homepage.html" class="logo">epication</a>
+    <nav class="navbar">
+      <a href="Homepage.html">Home</a>
+      <a href="Catalogues.html">Catalogue</a>
+      <a href="Blog.html">Blog</a>
+      <a href="About.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="faq.html">FaQs</a>
+      <a href="#">Terms and Conditions</a>
+    </nav>
+    <div class="icon">
+      <div class="search">
+        <input type="text" placeholder="Search" class="searchbox" />
+        <i class="bx bx-search" id="user1"></i>
+      </div>
+      <a href="LoginNew.html"><i class="bx bx-user" id="user"></i></a>
+      <a href="cart.html"><i class="bx bx-cart" id="user"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <h1 style="color: rgb(231, 232, 232);">Switzerland</h1>
+      <div class="box">
+        <h2>Lavertezzo</h2>
+        <div class="boxtop">
+          <div class="image-slide">
+            <div class="mySlides">
+              <div class="numbertext">1 / 3</div>
+              <img src="image/verzascaSwiss.jpg" style="width:100% ; height:550px">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 3</div>
+              <img src="image/swiss2.jpeg" style="width:100%; height:550px">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 3</div>
+              <img src="image/swiss3.png" style="width:100%; height:550px">
+            </div>
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="back-caption">
+              <div class="caption-image-slide">
+                <p id="caption"></p>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="image/verzascaSwiss.jpg" style="width:100% ; height:150px"
+                  onclick="currentSlide(1)" alt="Verzasca Valle">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="image/swiss2.jpeg" style="width:100% ; height:150px"
+                  onclick="currentSlide(2)" alt="Ticino Aventure">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="image/swiss3.png" style="width:100% ; height:150px"
+                  onclick="currentSlide(3)" alt="Sacro Monte e Santorio Madonna del Sasso">
+              </div>
+
+            </div>
+          </div>
+          <script src="Destination.js"></script>
+
+
+          <div class="itenary">
+            <h3>Itinerary</h3>
+            <h5>RM5,204.00</h5>
+            <br>
+            <p>05 Feb - 08 Feb 2024</p>
+            <p>30 Apr - 03 May 2024 (FULL)</p>
+            <p>01 May - 04 May 2024</p>
+            <p>13 May - 16 May 2024</p>
+            <p>11 Sept - 14 Sept 2024</p>
+            <p>24 Sept - 27 Oct 2024</p>
+            <p>05 Dec - 08 Dec 2024</p>
+            <button class="btn" onclick="window.location.href='cartSwitzerland.html'">Book</button>
+
+          </div>
+        </div>
+
+        <div class="boxbottom">
+          <div class="desc">
+            <h3>3 Day Lavertezzo Itinerary</h3>
+            <h4>Day-1</h4>
+            <h5>Morning</h5>
+            <ul>
+              <li>Breakfast at local cafe</li>
+              <p>We will start our day with local Swiss breakfast at local cafe near our staying place.</p>
+            </ul>
+            <h5>Afternoon</h5>
+            <ul>
+              <li>Valle Verzasca Exploration</li>
+              <p>We go by car to the centre of the Verzasca Valley, a charming town renowned for its crystal-clear river
+                and double-arch stone bridge. Spend some time strolling around the village and admiring the scenic
+                surroundings..</p>
+            </ul>
+            <h5>Evening</h5>
+            <ul>
+              <li>Dinner at Swiss-Italian restaurant</li>
+              <p>Fill our belly with dinner in one of the local restaurants, savouring Swiss-Italian food. </p>
+            </ul>
+            <br>
+            <h4>Day-2</h4>
+            <h5>Morning</h5>
+            <ul>
+              <li>Breakfast at local cafe</li>
+              <p>We will start our day with local Swiss breakfast at local cafe near our staying place.</p>
+            </ul>
+            <h5>Afternoon</h5>
+            <ul>
+              <li>Visit Ascona</li>
+              <p>We will go there by travel bus. After arrive, everyone can explore the place at their own pace to enjoy
+                the pictureque sceene with beautiful Lake Magiore </p>
+            </ul>
+            <h5>Evening</h5>
+            <ul>
+              <li>Dinner at Asconak</li>
+              <p>After strolling, we will dinner at local restaurant at Ascona to dine local cuisisne.</p>
+            </ul>
+            <br>
+            <h4>Day-3</h4>
+            <h5>Morning</h5>
+            <ul>
+              <li>Breakfast at local cafe nearest Locarno</li>
+              <p>We will start our day with local Swiss breakfast at local cafe near Locarno because this place always
+                full of people from evening to night.</p>
+            </ul>
+            <h5>Afternoon</h5>
+            <ul>
+              <li>Explore Sacro Monte e Santorio Madonna del Sasso</li>
+              <p>This is place that must visit when travel to Lavertezzo because it have a lot of historical story with
+                a beautiful architecture</p>
+              <h5>Evening</h5>
+            </ul>
+            <ul>
+              <li>Dinner in the Orselina</li>
+              <p>For supper, we pick a restaurant in the historic district near Locarno. A spectacular dining experience
+                may be had by visiting one of the many restaurants that provide an authentic taste of Lavertezzo </p>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+  </main>
+
+
+
+  <div class="footer">
+    <div class="foot">
+      <h3>Hotline Number</h3>
+      <br />
+      <p>013-4367635 (Farid)</p>
+      <p>019-5667824 (Imran)</p>
+      <br />
+      <h3>Subscribe to our email</h3>
+      <input type="email" placeholder="Enter your email" class="email" />
+      <h5>Copyright © 2023 | epication.co</h5>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: google;
+  src: url("font/GoogleSans-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: auto;
+  width: 100%;
+  background-color: #080b16;
+  background-image: url(image/bali.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logo {
+  text-shadow: 0 0 10px black;
+}
+.logo:hover {
+  text-shadow: 0 0 1.2px white;
+}
+.welcome {
+  font-size: 50px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 170px;
+  font-size: 80px;
+  font-weight: 700;
+}
+.welcome .wte {
+  line-height: 80px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  text-shadow: 0 0 15px black;
+}
+.welcome .begin {
+  font-size: 20px;
+  color: white;
+  padding-top: 13px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px black;
+}
+.align-ads {
+  margin-top: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ads-box {
+  height: 520px;
+  width: 224px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 60px;
+  box-shadow: 0 0 20px black;
+  border: 0.5px solid black;
+}
+.ads-box .image {
+  position: relative;
+  width: 220px;
+  border-radius: 15px;
+}
+.ads-box .caption {
+  padding: 13px;
+  font-size: 18px;
+  text-align: center;
+}
+.main .align-ads .ads-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px white;
+  border: 1px solid white;
+}
+.desti {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+figure img {
+  box-shadow: 0 0 20px black;
+}
+figure img:hover {
+  box-shadow: 0 0 20px white;
+}
+.desti .destination {
+  font-family: google;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.desti .destination:hover {
+  transform: scale(1.00005);
+}
+.desti .textDestination {
+  margin-bottom: 50px;
+  font-family: google;
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 1.5px;
+  color: white;
+  text-shadow: 0px 0px 15px black;
+  font-weight: 700;
+}
+.desti .destination :hover {
+  transform: scale(1.001);
+}
+
+.desti .destinationwidth {
+  /* width: 400px; */
+  max-height: 300px;
+  width: 25vw;
+  border-radius: 20px;
+  margin-right: 13px;
+  margin-left: 13px;
+}
+.desti figcaption {
+  font-family: google;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-shadow: 0px 0px 40px black;
+}

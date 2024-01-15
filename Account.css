@@ -1,0 +1,85 @@
+.content{
+    padding-top: 2%;
+    background-color:rgb(75, 69, 119);
+    justify-content: center;
+}
+ .top-content{
+    display: flex;
+    justify-content: center;
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }  
+
+.profile-picture{
+    border-radius: 50%;
+    background-color: rgb(79, 81, 81);
+    width: 300px;
+    height: 300px;
+    margin: 20px 100px 20px 0;
+
+
+}
+
+.pfp{
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#table-profile {
+    margin-top: 5%;
+    border-collapse: collapse;
+    width: 40vw; /* Adjust the width as needed */
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #656363; /* Header background color */
+    color: aliceblue;
+    font-weight: 200;
+  }
+
+  td {
+    border: none; /* Remove borders for data cells */
+    background-color: rgb(213, 215, 216);
+  }
+
+  input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .detail{
+    position: relative;
+  }
+  
+  #buttonConfirmUpdate{
+    position: absolute;
+    right: 16%;
+  }
+
+  .low-content{
+    padding-top: 23px;
+    padding-left: 43vw;
+    padding-bottom: 15px;
+  }
+
+  #table-history{
+    width: 40vw;
+  }

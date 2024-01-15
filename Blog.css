@@ -1,0 +1,150 @@
+@font-face {
+  font-family: google;
+  src: url(font/GoogleSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: google;
+}
+
+.container {
+  background-color: #2b324c;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url("image/streetNew.jpg");
+  background-size:cover;
+  background-position: center;
+}
+.container .gambarbackground .background {
+  display: block;
+  width: 100%;
+  height:auto;
+  position: absolute;
+  opacity: 50%;
+  background-size: cover;
+}
+.container-blog {
+  display: flex;
+  padding-bottom: 150px;
+  justify-content: center;
+  align-items: center;
+}
+/* Blog first */
+
+.textBlog1 {
+  margin-top:100px;
+  position: relative;
+  font-size: 80px;
+  color: blanchedalmond;
+  text-shadow: 1px 5px 10px black;
+  padding-left: 10%;
+}
+.blog1 img {
+  position: relative;
+  max-height: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+.blog1 {
+  margin-top: 100px;
+  position: relative;
+  height: auto;
+  width: 667px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+}
+
+.blog1 .caption {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.gambarhov {
+  transition: 0.1s;
+}
+.gambarhov :hover {
+  transform: scale(1.01);
+}
+
+/* Blog Second */
+.textBlog {
+  position: relative;
+  font-size: 80px;
+  color: blanchedalmond;
+  text-shadow: 1px 5px 10px black;
+  padding-right: 15%;
+}
+.blog img {
+  position: relative;
+  max-height: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+.blog .gam {
+  transform: scale(1.005);
+}
+.blog {
+  position: relative;
+  height: auto;
+  width: 667px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+}
+.blog .caption {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+/* Blog third */
+
+.textBlog3 {
+  position: relative;
+  font-size: 80px;
+  color: blanchedalmond;
+  text-shadow: 1px 5px 10px black;
+}
+.blog3 img {
+  position: relative;
+  max-height: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+.blog3 {
+  position: relative;
+  height: auto;
+  width: 667px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+  margin-right: 10%;
+}
+
+.blog3 .caption {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.gambarhov {
+  transition: 0.1s;
+}
+.gambarhov :hover {
+  transform: scale(1.01);
+}
+
+

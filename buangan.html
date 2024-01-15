@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remove Border on Active Input</title>
+  <style>
+    /* Style the input with a border initially */
+    input {
+      border: 1px solid #ccc; /* Set your initial border style */
+      padding: 5px; /* Optional: Add padding for better appearance */
+    }
+
+    /* Remove border when the input is active/focused */
+    input:focus {
+      outline: none; /* Remove the default focus outline */
+      border: none; /* Remove the border on focus */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Input element -->
+  <input type="text" placeholder="Type something">
+
+</body>
+</html>

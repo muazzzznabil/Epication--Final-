@@ -1,0 +1,105 @@
+@font-face {
+  font-family: google;
+  src: url("font/GoogleSans-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: auto;
+  background-color: grey;
+  background-image: url(image/logintry.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.align-box {
+  padding-top: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.box {
+  padding-top: 50px;
+  position: relative;
+  height: auto;
+  width: 700px;
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  box-shadow: 0 0 20px black;
+}
+.box .tajuk {
+  text-shadow: 0 0 20px black;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.box .email {
+  height: 50px;
+  width: 600px;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0 0 10px black;
+}
+.box .email::placeholder {
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+}
+.input .forgot {
+  padding-left: 58px;
+  margin-top: 5px;
+  justify-content: left;
+  display: flex;
+}
+.input .forgot:hover {
+  color: grey;
+}
+.sign {
+  height: 35px;
+  width: 150px;
+  margin-bottom: 8px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0 0 5px black;
+}
+.sign:hover {
+  box-shadow: 0 0 5px white;
+  color: grey;
+}
+.facebook {
+  margin-top: 20px;
+}
+.facebook .facebook-box {
+  height: 40px;
+  width: 470px;
+  margin-bottom: 8px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0 0 5px black;
+}
+.facebook .facebook-box:hover {
+  box-shadow: 0 0 5px white;
+  color: grey;
+}
+#logo {
+  font-size: 16px;
+  margin-right: 20px;
+  color: blue;
+}
+#logog {
+  font-size: 16px;
+  margin-right: 20px;
+  color: red;
+}
