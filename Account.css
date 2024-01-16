@@ -78,11 +78,9 @@ button {
 }
 
 .low-content {
-  display: flex;
-  justify-content: center;
-  /* padding-top: 23px;
+  padding-top: 23px;
   padding-left: 43vw;
-  padding-bottom: 15px; */
+  padding-bottom: 15px;
 }
 
 #table-history {
