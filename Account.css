@@ -3,6 +3,9 @@
   background-color: rgb(53, 47, 97);
   justify-content: center;
   background-image: url(image/profileBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .top-content {
   display: flex;
