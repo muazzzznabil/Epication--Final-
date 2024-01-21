@@ -31,7 +31,7 @@ body {
 }
 .trapeziumTextLeft {
   position: absolute;
-  font-size: 700%;
+  font-size: 7vw;
   color: rgb(255, 255, 255);
   top: 22%;
   left: 12%;
