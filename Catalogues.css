@@ -31,10 +31,10 @@ body {
 }
 .trapeziumTextLeft {
   position: absolute;
-  font-size: 20vw;
+  /* font-size: 20vw; */
   color: rgb(255, 255, 255);
   top: 22%;
-  left: 12%;
+  left: 11%;
   font-family: google;
   text-shadow: 0 0 10px rgb(54, 112, 166);
 }
@@ -44,7 +44,7 @@ body {
   font-size: 2vw;
   color: rgb(16, 42, 66);
   top: 52%;
-  right: 7%;
+  right: 9%;
   font-family: google1;
   text-align: right;
   text-shadow: 0 0 10px rgb(255, 255, 255);
