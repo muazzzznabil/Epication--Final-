@@ -35,10 +35,11 @@ body {
   color: rgb(255, 255, 255);
   top: 22%;
   left: 12%;
+  font-family: google;
   text-shadow: 0 0 10px rgb(54, 112, 166);
 }
 
-.trapeziumTextRight {
+.trapeziumTextRight p {
   position: absolute;
   font-size: 10vw;
   color: rgb(16, 42, 66);
