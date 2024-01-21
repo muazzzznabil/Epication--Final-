@@ -41,7 +41,7 @@ body {
 
 .trapeziumTextRight p {
   position: absolute;
-  font-size: 10vw;
+  font-size: 2vw;
   color: rgb(16, 42, 66);
   top: 52%;
   right: 7%;
@@ -92,8 +92,7 @@ body {
   aspect-ratio: 1 / 1;
   /* border-radius: 10px; */
 }
-.packageCarousel {
-}
+
 .container {
   display: flex;
   justify-content: center;
